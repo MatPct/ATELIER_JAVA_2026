@@ -61,6 +61,16 @@
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>*****</br>****</br>***</br>**</br>*</p>
 
+<p>Résultat :</p>
+
+    <p>
+    <% for (int i = cpt; i > 0; i--) { %>
+        <% for (int j = 0; j < i; j++) { %>
+           <%= "*" %>
+        <% } %>
+        </p>
+    <% } %>
+
 <h2>Exercice 4 : Triangle rectangle 2</h2>
 <p>Ecrire le code afin de produire un triangle rectangle aligné sur la droite</p>
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
